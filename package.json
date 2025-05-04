@@ -1,0 +1,21 @@
+{
+  "name": "metaplex-nft-mint",
+  "version": "1.0.0",
+  "description": "NFT minting project using Metaplex on Solana devnet",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.19.5",
+    "@solana/web3.js": "^1.98.2",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.32",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.10.0"
+}

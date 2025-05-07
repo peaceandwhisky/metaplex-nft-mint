@@ -1,6 +1,6 @@
-# Metaplex NFT Mint
+# Metaplex Compressed NFT Mint
 
-A tool for minting NFTs on Solana's mainnet and devnet.
+A tool for minting Compressed NFTs on Solana's mainnet and devnet using Metaplex's Bubblegum program.
 
 ## Prerequisites
 
@@ -61,7 +61,7 @@ solana airdrop 2 <wallet-address> --url devnet
 
 ### Mainnet
 - Approximately 0.1 SOL or more required
-  - Bundlr storage fees
+  - Merkle Tree creation costs
   - Transaction fees
 
 ## Image Preparation
@@ -99,6 +99,13 @@ mkdir assets
 - Solana Explorer: https://explorer.solana.com
 - Solana FM: https://solana.fm
 - Phantom Wallet
+
+## Compressed NFT Features
+
+- Significantly reduced storage costs compared to regular NFTs
+- Efficient storage using Merkle Trees
+- Batch minting capability
+- Easy metadata updates
 
 ## License
 
